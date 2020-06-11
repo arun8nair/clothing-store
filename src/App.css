@@ -3,6 +3,10 @@
   padding: 20px 60px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .App-header {
   background-color: #282c34;

@@ -13,13 +13,6 @@ import {setCurrentUser} from './redux/user/userActions';
 import {selectCurrentUser} from './redux/user/userSelectors';
 import SignInAndSignUpPage from './pages/Signin-Signup';
 
-const HatsPage = () => {
-    return (
-        <div>
-            Hats Page
-        </div>
-    )
-}
 
 class App extends React.Component {
 

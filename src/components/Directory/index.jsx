@@ -7,10 +7,10 @@ import './Directory.scss';
 
 const Directory = ({sections}) => (
     <div className="directory-menu">
-                {sections.map(({id, ...otherProps}) => {
-                    return <MenuItem key={id} {...otherProps} />
-                })}
-            </div>
+        {sections.map(({id, ...otherProps}) => {
+            return <MenuItem key={id} {...otherProps} />
+        })}
+    </div>
 )
 
 const mapStateToProps = createStructuredSelector({

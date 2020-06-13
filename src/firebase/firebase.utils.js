@@ -59,7 +59,7 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
         batch.set(newDocRef, obj)
     });
 
-    await batch.commit();console.log("here")
+    await batch.commit();
 }
 
 firebase.initializeApp(config);
